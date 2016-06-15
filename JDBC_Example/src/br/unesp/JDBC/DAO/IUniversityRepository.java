@@ -1,5 +1,6 @@
 package br.unesp.JDBC.DAO;
 
+import java.util.List;
 import br.unesp.JDBC.beans.University;
 
 /**
@@ -9,5 +10,5 @@ public interface IUniversityRepository {
     public void insertUniversity(University university);
     public void updateUniversity(University university);
     public void deleteUniversity(University university);
-    public void selectUniversity(University university);
+    public List<University> selectUniversity(University university);
 }
